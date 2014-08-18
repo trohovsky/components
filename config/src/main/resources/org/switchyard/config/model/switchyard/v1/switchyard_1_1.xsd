@@ -23,7 +23,7 @@
     <element name="switchyard" type="swyd:SwitchYardType"/>
     <complexType name="SwitchYardType">
         <sequence>
-           <element ref="sca:composite" minOccurs="0" maxOccurs="1"/>
+           <element ref="sca:composite" minOccurs="1" maxOccurs="1"/>
            <element ref="swyd:transforms" minOccurs="0" maxOccurs="1"/>
            <element ref="swyd:validates" minOccurs="0" maxOccurs="1"/>
            <element ref="swyd:domain" minOccurs="0" maxOccurs="1"/>
